@@ -57,7 +57,7 @@
         } else if (![GSGPU isLegacyMachine]) {
             // Set the machine to dynamic switching to get it out of any kind of
             // weird state from the get go.
-            [GSMux setMode:GSSwitcherModeDynamicSwitching];
+            [GSMux setMode:GSSwitcherModeForceDiscrete];
         }
     }
 

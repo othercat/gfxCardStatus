@@ -14,3 +14,5 @@ xcuserdata
 profile
 DerivedData
 dsa_priv.pem
+
+lib/reactivecocoa
