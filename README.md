@@ -1,8 +1,13 @@
 # gfxCardStatus
-by Cody Krieger
+by Cody Krieger modified by Richard Li
 
 gfxCardStatus is an open-source menu bar application for OS X that allows users
 of dual GPU MacBook Pros to monitor the status of, and switch between said GPUs.
+
+## Change Log
+
+20141111  
+compiled with old ReactiveCocoa framework from <https://github.com/othercat/ReactiveCocoa/tree/old_framework>
 
 ## Building from source
 

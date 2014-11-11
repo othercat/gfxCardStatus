@@ -17,7 +17,7 @@
 		A11599C013D429750097E4BC /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11599BD13D429750097E4BC /* PreferencesWindowController.m */; };
 		A11599C613D429860097E4BC /* AdvancedPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11599C213D429860097E4BC /* AdvancedPreferencesView.xib */; };
 		A11599C713D429860097E4BC /* GeneralPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11599C413D429860097E4BC /* GeneralPreferencesView.xib */; };
-		A12AACD1158B1EEC00CD140F /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1B9412B15899CFD000EE7A7 /* Growl.framework */; };
+		A12AACD1158B1EEC00CD140F /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1B9412B15899CFD000EE7A7 /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A12AACD3158C9DE100CD140F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12AACD2158C9DE100CD140F /* QuartzCore.framework */; };
 		A13C5FC0119FCFCF00E678FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A13C5FBE119FCFCF00E678FA /* Localizable.strings */; };
 		A14B9EA013C55A33009A761C /* discrete-a-white.png in Resources */ = {isa = PBXBuildFile; fileRef = A14B9E9E13C55A33009A761C /* discrete-a-white.png */; };
@@ -29,9 +29,8 @@
 		A14C17FC124EBC1100816A4A /* discrete-n-white.png in Resources */ = {isa = PBXBuildFile; fileRef = A14C17FA124EBC1100816A4A /* discrete-n-white.png */; };
 		A14C180B124EFE6300816A4A /* GSPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = A14C180A124EFE6300816A4A /* GSPreferences.m */; };
 		A159E4EA1184E84300E68428 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A159E4E91184E84300E68428 /* Sparkle.framework */; };
-		A159E4FC1184EC5100E68428 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A159E4E91184E84300E68428 /* Sparkle.framework */; };
+		A159E4FC1184EC5100E68428 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A159E4E91184E84300E68428 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A161687F158E0E380063BE94 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A161687E158E0E370063BE94 /* LICENSE */; };
-		A1616892158E143A0063BE94 /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1ED2CF715884B8A00B99CDE /* ReactiveCocoa.framework */; };
 		A16B28F41196B0E7006EB263 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A16B28F31196B0E7006EB263 /* README.md */; };
 		A17220A91236DA8A00636797 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = A17220981236DA0B00636797 /* Growl Registration Ticket.growlRegDict */; };
 		A17221841236DE4200636797 /* Growl License.txt in Resources */ = {isa = PBXBuildFile; fileRef = A17221831236DE4200636797 /* Growl License.txt */; };
@@ -46,7 +45,6 @@
 		A1E07D581194B42100683B07 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E07D571194B42100683B07 /* IOKit.framework */; };
 		A1E07E111194B42B00683B07 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E07E101194B42B00683B07 /* ApplicationServices.framework */; };
 		A1ED2B9F1588457400B99CDE /* GSGPU.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ED2B9E1588457400B99CDE /* GSGPU.m */; };
-		A1ED2D1515884C2C00B99CDE /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1ED2CF715884B8A00B99CDE /* ReactiveCocoa.framework */; };
 		A1ED2D1B158859DE00B99CDE /* GSStartup.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ED2D1A158859DE00B99CDE /* GSStartup.m */; };
 		A1ED2D1F15885D6A00B99CDE /* GSNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ED2D1E15885D6900B99CDE /* GSNotifier.m */; };
 		A1ED2D22158860FB00B99CDE /* GSMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ED2D21158860FA00B99CDE /* GSMenuController.m */; };
@@ -54,38 +52,8 @@
 		A1F7ED4E14B0409300328A83 /* GTMLoggerRingBufferWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F7ED4B14B0409300328A83 /* GTMLoggerRingBufferWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A1F7ED5114B0410E00328A83 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = A1F7ED5014B0410E00328A83 /* ReleaseNotes.txt */; };
 		A1F7ED5314B0413900328A83 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = A1F7ED5214B0413900328A83 /* COPYING */; };
+		EF7A61B71A10DC7900960DD0 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7A61B61A10DC7900960DD0 /* ReactiveCocoa.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A1ED2CF615884B8A00B99CDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1ED2CEB15884B8900B99CDE /* ReactiveCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 88037F8315056328001A5B19;
-			remoteInfo = ReactiveCocoa;
-		};
-		A1ED2CF815884B8A00B99CDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1ED2CEB15884B8900B99CDE /* ReactiveCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
-			remoteInfo = "ReactiveCocoa-iOS";
-		};
-		A1ED2CFA15884B8A00B99CDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1ED2CEB15884B8900B99CDE /* ReactiveCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
-			remoteInfo = ReactiveCocoaTests;
-		};
-		A1ED2D1315884C2000B99CDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1ED2CEB15884B8900B99CDE /* ReactiveCocoa.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 88037F8215056328001A5B19;
-			remoteInfo = ReactiveCocoa;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A159E5011184EC5D00E68428 /* CopyFiles */ = {
@@ -94,7 +62,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A1616892158E143A0063BE94 /* ReactiveCocoa.framework in CopyFiles */,
 				A159E4FC1184EC5100E68428 /* Sparkle.framework in CopyFiles */,
 				A12AACD1158B1EEC00CD140F /* Growl.framework in CopyFiles */,
 			);
@@ -180,7 +147,6 @@
 		A1ED2B2E15857CB600B99CDE /* lv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lv; path = lv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A1ED2B9D1588457400B99CDE /* GSGPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGPU.h; sourceTree = "<group>"; };
 		A1ED2B9E1588457400B99CDE /* GSGPU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGPU.m; sourceTree = "<group>"; };
-		A1ED2CEB15884B8900B99CDE /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = lib/reactivecocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
 		A1ED2D19158859DE00B99CDE /* GSStartup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSStartup.h; sourceTree = "<group>"; };
 		A1ED2D1A158859DE00B99CDE /* GSStartup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSStartup.m; sourceTree = "<group>"; };
 		A1ED2D1D15885D6900B99CDE /* GSNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSNotifier.h; sourceTree = "<group>"; };
@@ -196,6 +162,7 @@
 		A1F7ED4F14B040B200328A83 /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGarbageCollection.h; sourceTree = "<group>"; };
 		A1F7ED5014B0410E00328A83 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
 		A1F7ED5214B0413900328A83 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		EF7A61B61A10DC7900960DD0 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveCocoa.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,10 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A12AACD3158C9DE100CD140F /* QuartzCore.framework in Frameworks */,
-				A1ED2D1515884C2C00B99CDE /* ReactiveCocoa.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				A159E4EA1184E84300E68428 /* Sparkle.framework in Frameworks */,
 				A1E07D581194B42100683B07 /* IOKit.framework in Frameworks */,
+				EF7A61B71A10DC7900960DD0 /* ReactiveCocoa.framework in Frameworks */,
 				A1E07E111194B42B00683B07 /* ApplicationServices.framework in Frameworks */,
 				A1B9412C15899CFD000EE7A7 /* Growl.framework in Frameworks */,
 			);
@@ -237,7 +204,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A1ED2CEB15884B8900B99CDE /* ReactiveCocoa.xcodeproj */,
+				EF7A61B61A10DC7900960DD0 /* ReactiveCocoa.framework */,
 				A12AACD2158C9DE100CD140F /* QuartzCore.framework */,
 				A1B9412B15899CFD000EE7A7 /* Growl.framework */,
 				A159E4E91184E84300E68428 /* Sparkle.framework */,
@@ -395,16 +362,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A1ED2CEC15884B8900B99CDE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A1ED2CF715884B8A00B99CDE /* ReactiveCocoa.framework */,
-				A1ED2CF915884B8A00B99CDE /* libReactiveCocoa-iOS.a */,
-				A1ED2CFB15884B8A00B99CDE /* ReactiveCocoaTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A1F7ED4314B0403700328A83 /* Google Toolbox for Mac */ = {
 			isa = PBXGroup;
 			children = (
@@ -435,7 +392,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				A1ED2D1415884C2000B99CDE /* PBXTargetDependency */,
 			);
 			name = gfxCardStatus;
 			productInstallPath = "$(HOME)/Applications";
@@ -449,7 +405,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Cody Krieger";
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "gfxCardStatus" */;
@@ -481,42 +437,12 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* gfxCardStatus */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A1ED2CEC15884B8900B99CDE /* Products */;
-					ProjectRef = A1ED2CEB15884B8900B99CDE /* ReactiveCocoa.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* gfxCardStatus */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A1ED2CF715884B8A00B99CDE /* ReactiveCocoa.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReactiveCocoa.framework;
-			remoteRef = A1ED2CF615884B8A00B99CDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A1ED2CF915884B8A00B99CDE /* libReactiveCocoa-iOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libReactiveCocoa-iOS.a";
-			remoteRef = A1ED2CF815884B8A00B99CDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A1ED2CFB15884B8A00B99CDE /* ReactiveCocoaTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ReactiveCocoaTests.octest;
-			remoteRef = A1ED2CFA15884B8A00B99CDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8D1107290486CEB800E47090 /* Resources */ = {
@@ -574,14 +500,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A1ED2D1415884C2000B99CDE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ReactiveCocoa;
-			targetProxy = A1ED2D1315884C2000B99CDE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
@@ -663,11 +581,14 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(PROJECT_DIR)/lib/reactivecocoa/ReactiveCocoaFramework\"",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
@@ -688,11 +609,14 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Cody Krieger";
+				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(PROJECT_DIR)/lib/reactivecocoa/ReactiveCocoaFramework\"",
+					"$(PROJECT_DIR)",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -711,7 +635,6 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				DEPLOYMENT_LOCATION = NO;
 				DEPLOYMENT_POSTPROCESSING = NO;
@@ -735,7 +658,6 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				DEPLOYMENT_LOCATION = NO;
 				DEPLOYMENT_POSTPROCESSING = NO;
